@@ -1,0 +1,2092 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <!-- <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css"> -->
+    <title>About me</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+            *{
+    margin: 0%;
+    padding: 0%;
+    border-spacing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.landing{
+    width: 100%; 
+    height: 630px;
+    background-color: white;
+}
+/* .container{
+    height: 20px;
+    margin: auto;
+        width: 1310px;
+} */
+
+.header{
+        width: 90%;
+    height: 75px;
+    background: black;
+    border-radius: 62px;
+    margin: auto;
+    position: relative;
+    top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.header ul li{
+    display: inline;
+    position: relative;
+    bottom: 2px;
+    padding: 20px 3%;
+    border-radius: 50px;
+}
+   .container{
+        
+    }
+.header ul li a{
+text-decoration: none;
+color: white;
+}
+.header ul li:hover{
+    border-radius: 50px;
+    font-size: 18px;
+    background-color: orange;
+    transition: 0.5s;
+}
+.contact .heading4 button:hover{
+    background-color: black;
+    transition: 0.5s;
+}
+button{
+    cursor: pointer;
+}
+a{
+    cursor: pointer;
+}
+#headings:hover{
+    background-color: black;
+    transition: 1ms;
+}
+.header ul{
+    margin: auto;
+    width: 98%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.header ul li h1{
+    display: inline;
+    color: white;
+    font-size: 23px;
+}
+.header ul li h2{
+       display: inline;
+    color: black;
+    padding: 3px 8px;
+    background: orange;
+    border-radius: 50px;
+}
+/* section 1 header complete */
+/* section 1 start  */
+.Hello{
+    margin-top: 70px;
+    text-align: center;
+}
+.d7 .star{
+    color: black;
+}
+.Hello h2{
+    border-radius: 50px;
+    color: black;
+    border: 2px solid black;
+    display: inline;
+    padding: 7px 21px;
+    font-size: 20px;
+}
+.my_name{
+    text-align: center;
+    width: 65%;
+    margin: auto;
+    margin-top: 20px;
+}
+.my_name h1{
+    display: inline;
+    font-size: 65px;
+}
+.my_name h2{
+    display: inline;
+    font-size: 65px;
+    color: orange;
+}
+.intro{
+    margin-top: 35px;
+    width: 270px;
+    display: inline-block;
+    margin-left: 30px;
+}
+.exp{
+    margin-top: 35px;
+    width: 270px;
+    display: inline-block;
+    float: right;
+    text-align: center;
+}
+.star{
+    color: gold;
+}
+.profile_picture{
+   height: 400px;
+    width: 400px;
+    background-color: transparent;
+    position: relative;
+    margin: auto;
+    bottom: 40px;
+    border-radius: 50%;
+    z-index: 0;
+}
+.hire{
+    border: 1px solid white;
+    border-radius: 50px;
+    position: relative;
+    height: 37px;
+    width: 280px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    z-index: 1;
+    bottom: 140px;
+}
+.profile_picture img{
+    position: relative;
+    bottom: 73px;
+    transform: scale(1);
+    right: 1px;
+    z-index: 0;
+}
+.profile_picture2 img{
+    position: relative;
+    bottom: 197px;
+    transform: scale(0.6);
+    right: 95px;
+    z-index: 0;
+}
+.hire a{
+    color: white;
+    padding: 7px 34px;
+    font-size: 20px;
+    backdrop-filter: blur(1px);
+    border-radius: 50px;
+}
+.hire a:hover{
+background-color: orange;
+transition: 0.5s;
+/* font-weight: bold; */
+}
+.services{
+    height: 620px;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+    background-color: black;
+}
+.heading2{
+    padding-top: 100px;
+    padding-left: 50px;
+    display: inline-block;
+}
+.heading2 h1{
+    color: white;
+    font-size: 38px;
+    display: inline;
+}
+.heading2 h2{
+    color: #ffa500;
+    font-size: 38px;
+    display: inline;
+}
+.service{
+        margin: 100px;
+    padding-left: 9px;
+    display: inline-block;
+    float: right;
+    height: 75px;
+    width: 413px;
+    color: white;
+    margin-right: 10px;
+    margin-bottom: 0px;
+}
+.my_services{
+    width: 99%;
+    height: 300px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.s1{
+    background-image: url(s1.jpg);
+}
+.s2{
+    background-image: url(s2.jpg);
+}
+.s3{
+    background-image: url(s3.jpg);
+}
+.name_of_service{
+    border: none;
+    height: 62px;
+    width: 310px;
+    display: inline-block;
+    margin-bottom: 250px;
+    border-bottom: solid 2px white;
+}
+.name_of_service h2{
+    display: inline-block;
+    color: white;
+    padding: 25px;
+}
+.service1{
+    height: 300px;
+    width: 310px;
+    border: 2px solid white;
+    display: inline-block;
+    border-radius: 30px;
+    border-bottom-right-radius: 170px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 65px;
+}
+.arrow{
+    color: white;
+    display: inline-block;
+        border-radius: 22px;
+    height: 75px;
+    width: 70px;
+    position: relative;
+    bottom: 100px;
+    left: 236px;
+    background: orange;
+    font-size: 60px;
+    border: none;
+}
+.arrow:hover{
+    background-color: black;
+transition: 0.5s;
+
+    border: 1px solid white;
+}
+.arrow p{
+    transform: rotate(320deg);
+    padding-left: 20px;
+}
+/* services section complete */
+/* experience section start  */
+.experience{
+    width: 100%;
+    background-color: white;
+    height: 640px;
+}
+.hir{
+        display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.expr{
+        display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.experience .heading2{
+    display: block;
+    text-align: center;
+    position: relative;
+    bottom: 35px;
+}
+.experience .heading2 h1{
+    color: black;
+    font-size: 50px;
+}
+.experience .heading2 h2{
+    font-size: 50px;
+}
+.d1{
+        height: 400px;
+    width: 400px;
+    display: inline-block;
+    /* margin: 20px 44px; */
+    position: relative;
+    bottom: 60px;
+    left: 30px;
+    top: -9px;
+}
+.d1 h1{
+    padding-top: 35px;
+}
+.d1 h2{
+    color: gray;
+    font-size:20px;
+    padding-top: 5px;
+    padding-bottom: 35px;
+}
+.d2{
+        height: 400px;
+    width: 100px;
+    display: inline-block;
+    /* margin: 17px 150px; */
+    position: relative;
+    right: 20px;
+}
+.d3 h1{
+    padding-top: 35px;
+}
+.d3 h2{
+    color: gray;
+    font-size: 14px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+}
+.d3{
+    height: 400px;
+    width: 436px;
+    display: inline-block;
+}
+.dot{
+    height: 50px;
+    width: 50px;
+    border: 2px dotted black;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 20px;
+}
+.circle{
+    background: orange;
+    height: 40px;
+    width: 40px;
+    border-radius: 50pc;
+    margin: 5px 5px;
+}
+.line{
+    border: 2px dotted;
+    color: black;
+    height: 113px;
+    border-color: transparent;
+    border-right-color: black;
+    width: 1px;
+    margin: auto;
+}
+.dot2{
+    height: 50px;
+    width: 50px;
+    border: 2px dotted black;
+    border-radius: 50px;
+    margin: auto;
+}
+.circle2{
+    background: black;
+    height: 40px;
+    width: 40px;
+    border-radius: 50pc;
+    margin: 5px 5px;
+}
+/* experience section complete 
+hire section start  */
+.hire_section{
+    height: 600px;
+    width: 85%;
+    background-color: white;
+    margin-top: 40px;
+}
+.heading3{
+    margin: 100px 0px;
+    text-align: center;
+}
+.details{
+    width: 440px;
+    height: 300px;
+    margin-right: 10%
+}
+.details h4{
+    color: gray;
+}
+.profile_picture2{
+    height: 300px;
+    width: 280px;
+    border-radius: 40px;
+    background-color: orange;
+    /* margin-left: 140px; */
+    position: relative;
+    top: 50px;
+}
+.details .heading3{
+    display: inline-block;
+    padding-bottom: 30px;
+}
+.heading3 h1{
+    color: black;
+    font-size: 48px;
+    display: inline;
+}
+.heading3 h2{
+    color: orange;
+    font-size: 48px;
+    display: inline;
+}
+.p1{
+    display: inline-block;
+}
+.p2{
+    display: inline-block;
+    /* float: right; */
+}
+.details button{
+    border: 2px solid black;
+    border-radius: 25px;
+    margin-top: 35px;
+    display: block;
+    padding: 20px 40px;
+    font-size: 20px;
+    font-weight: bold;
+    background: transparent;
+}
+.details button:hover{
+    background-color: orange;
+    color: white;
+    transition: 0.5sec;
+
+}
+/* hire section complete  */
+/* review section start */
+.review{
+    height: 620px;
+    width: 100%;
+    background-color: black;
+}
+
+.bg2{
+background: transparent;
+height: 620px;
+width: 100%;
+    background-size: cover;
+    position: relative;
+right: 20px;
+}
+.bg1{
+background:transparent;
+height: 800px;
+width: 100%;
+    background-size: cover;
+    position: relative;
+right: 20px;
+}
+.bg3{
+background-color: black;
+}
+
+
+.heading4{
+    padding-top: 100px;
+    display: inline-block;
+    margin: -60px 465px;
+    text-align: center;
+}
+.review .heading4{
+    margin: 0;
+padding-top: 100px;
+    display: block;
+    text-align: center;
+}
+.review1 .pfp{
+    background-image: url(p1.jpg);
+    background-size: contain;
+}
+.review2 .pfp{
+    background-image: url(p3.jpg);
+    background-size: contain;
+}
+.review3 .pfp{
+    background-image: url(p2.jpg);
+    background-size: contain;
+}
+.heading4 h1{
+    color: white;
+    font-size: 38px;
+    display: inline;
+}
+.heading4 h2{
+    color: orange;
+    font-size: 38px;
+    display: inline;
+}
+.para{
+        margin: auto;
+    text-align: center;
+    height: 96px;
+    width: 630px;
+    color: gray;
+    padding-top: 20px;
+    font-weight: bold;
+}
+.a{
+    background-image: url(bg2.jpeg);
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+.review1{
+        height: 185px;
+    background-color: rgba(255, 255, 255, 0.445);
+    color: white;
+    border-radius: 30px;
+    max-width: 70%;
+    /* margin: auto; */
+    width: 45%;
+    margin-top: 15px;
+}
+.review1 div{
+    display: inline-block;
+}
+.pfp {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    border-radius: 50px;
+    display: inline-block;
+    margin: 20px;
+}
+.r_name{
+position: relative;
+    bottom: 24px;
+    right: 15px;
+}
+.r_name h4{
+    color: gray;
+}
+.stars{
+    position: relative;
+    right: 190px;
+    top: 10px;
+}
+.stars h2{
+    display: inline;
+}
+.para2{
+        color: #ffffffde;
+    width: 540px;
+    padding-left: 30px;
+    padding-top: 10px;
+    width: 90%;
+}
+/* review 2  */
+.review2{
+    height: 210px;
+    width: 600px;
+    background-color: rgba(255, 255, 255, 0.445);
+    border-radius: 30px;
+    color: white;
+    transform: scale(0.7);
+    margin-right: -130px;
+    margin-left: -132px;
+    display: none;
+}
+.review2 div{
+    display: inline-block;
+}
+.pfp {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    border-radius: 50px;
+    display: inline-block;
+    margin: 20px;
+}
+.r_name{
+position: relative;
+    bottom: 24px;
+    right: 15px;
+}
+.r_name h4{
+    color: gray;
+}
+.stars{
+    position: relative;
+    right: 190px;
+    top: 10px;
+}
+.stars h2{
+    display: inline;
+}
+/* review 3  */
+.review3{
+    height: 210px;
+    width: 600px;
+    background-color: rgba(255, 255, 255, 0.445);
+    border-radius: 30px;
+    color: white;
+    transform: scale(0.7);
+    display: none;
+}
+.review3 div{
+    display: inline-block;
+}
+.pfp {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    border-radius: 50px;
+    display: inline-block;
+    margin: 20px;
+}
+.r_name{
+position: relative;
+    bottom: 24px;
+    right: 15px;
+}
+.r_name h4{
+    color: gray;
+}
+.stars{
+    position: relative;
+    right: 190px;
+    top: 10px;
+}
+.stars h2{
+    display: inline;
+}
+
+.reviews{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+/* review section complete 
+section 5 start */
+.project_idea{
+    height: 600px;
+    width: 100%;
+}
+.heading5{
+    padding-top: 100px;
+    display: block;
+    text-align: center;
+}
+.heading5 h1{
+    color: black;
+    font-size: 53px;
+    display: inline;
+}
+.heading5 h2{
+    color: orange;
+    font-size: 53px;
+    display: inline;
+}
+.email{
+    height: 80px;
+    border-radius: 50px;
+    border: 0.1px solid black;
+    width: 805px;
+    margin: auto;
+    margin-top: 50px
+}
+.email .star{
+    margin-top: 22px;
+    margin-left: 20px;
+    background: #ffa500a6;
+    border-radius: 50px;
+    padding: 10px;
+    color: #ff6f00;
+}
+.email input{
+    height: 70px;
+    width: 60%;
+    border: 1px solid transparent;
+    color: #000000;
+    font-size: 30px;
+    background: transparent;
+    position: relative;
+    top: 5px;
+    padding-left: 35px;
+}
+.email input::placeholder{
+    font-size: 30px;
+    color: black;
+}
+.email button{
+    border: transparent;
+    height: 70px;
+    width: 140px;
+    background-color: orange;
+    color: white;
+    border-radius: 50px;
+    font-size: 25px;
+    margin-left: 70px;
+    margin-top: 5px;
+}
+.email button:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+.acheivements{
+    margin: auto;
+    width: 868px;
+}
+.a1{
+    display: inline-block;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+.a1 h3{
+display: inline;
+}
+.services2{
+    width: 100%;
+    height: 130px;
+    background-color: orange;
+    margin-top: 102px;
+    border-radius: 30px;
+    position: relative;
+    right: 20px;
+}
+.services3{
+       height: 60px;
+    width: 99%;
+    background-color: white;
+    border-radius: 30px;
+    transform: rotate(-4deg);
+    position: relative;
+    top: 33px;
+    display: flex;
+    font-size: 70%;
+    flex-direction: row;
+    justify-content: space-around;}
+.services3 h1{
+    padding: 15px 25px;
+    display: inline-block;
+}
+.project_details{
+    height: 100px;
+    width: 99%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+}
+.services3 .star{
+    font-size: 20px;
+    position: relative;
+    bottom: -20px;
+}
+/* section 5 complete  */
+/* project_section start  */
+.project_section{
+    height: 700px;
+    width: 100%;
+    background-color: white;
+    margin-top: 20px;
+}
+.project_section h1{
+    padding-left: 20px;
+    color: black;
+}
+.project_section .botton{
+    height: 70px;
+    width: 140px;
+    border: transparent;
+    background-color: orange;
+    color: white;
+    border-radius: 50px;
+    font-size: 25px;
+    margin-left: 70px;
+    margin-top: 5px;
+    float: right;
+    margin-top: 100px;
+    margin-right: 40px;
+    transform: scale(0.8);
+}
+.project_section button:hover{
+    background-color: black;
+    color: white;
+transition: 0.5s;
+}
+.project_section .arrow p:hover{
+    /* background-color: black; */
+    color: white;
+transition: 0.5s;
+    /* transition: 1s; */
+}
+
+.details_of_projects{
+    height: 100px;
+    width: 285px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.details_of_project2{
+    height: 100px;
+    width: 285px;
+    display: inline-block;
+    margin-top: 20px;
+}
+.details_of_project3{
+        height: 100px;
+    width: 260px;
+    position: relative;
+    display: inline-block;
+    margin-top: 20px;
+}
+.project_section .service2{
+    background-image: url(furni.PNG);
+}
+.project_section .services1{
+    background-image: url(pf.PNG);
+}
+.project_section .service3{
+    background-image: url(p4.PNG);
+}
+.project_details h4{
+    height: 100px;
+    width: 285px;
+    margin-top: 20px;
+    font-weight: lighter;
+}
+/* project section complete  */
+/* contact section start  */
+.contact{
+    height: 765px;
+    width: 100%;
+    background-color: black;
+}
+.contact .heading4{
+    margin: initial;
+    margin-left: 70px;
+}
+.contact .heading4 h1{
+    font-size: 45px;
+}
+.contact button{
+    border: transparent;
+    height: 50px;
+    width: 160px;
+    background-color: orange;
+    color: white;
+    border-radius: 50px;
+    font-size: 25px;
+    /* margin-left: 116px; */
+    margin-top: 5px;
+    float: right;
+    margin-top: 100px;
+    margin-right: 45px;
+}
+.contact button:hover{
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+transition: 0.5s;
+    /* transition: 1s; */
+}
+.d7 button:hover .star{
+    color: orange;
+    transition: 0.5s;
+}
+.details a{
+    color: black;
+}
+.details button:hover{
+    background-color: black;
+    /* transition: 1s; */
+transition: 0.5s;
+
+}
+.details button:hover a{
+    color: white;
+    /* transition: 1s; */
+transition: 0.5s;
+
+}
+hr{
+    color: white;
+    width: 90%;
+    margin: auto;
+}
+.contact_information{
+height: 280px;
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+}
+.d4{
+    display: inline-block;
+    height: 300px;
+    width: 45%;
+    position: relative;
+    bottom: 63px;
+}
+.d4 .heading2{
+padding-top: 0px;
+}
+.d4 .heading2 h2{
+    color: black;
+    background-color: orange;
+    border-radius: 50px;
+    padding: 8px;
+}
+.heading2 h4{
+    color: white;
+    padding: 40px 2px
+}
+.d5{
+    display: inline-block;
+    width: 137px;
+    height: 300px;
+}
+.d5 .heading2 h2{
+    color: orange;
+    border-radius: 50px;
+    padding: 8px;
+    font-size: 20px;
+    display: inline-block;
+    padding-bottom: 10px;
+    padding-top: 0px;
+}
+
+.d5 .heading2{
+padding-top: 0px;
+}
+.d5 .heading2 h1{
+    color: black;
+    border-radius: 50px;
+    padding: 8px;
+    padding-top: 10px;
+    font-size: 18px;
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.d6{
+    display: inline-block;
+    height: 300px;
+    width: 170px;
+}
+.d6 .heading2 h2{
+    color: orange;
+    border-radius: 50px;
+    padding: 8px;
+    font-size: 20px;
+    display: inline-block;
+    padding-bottom: 10px;
+    padding-top: 0px;
+}
+
+.d6 .heading2{
+padding-top: 0px;
+}
+.d6 .heading2 h1{
+    color: white;
+    border-radius: 50px;
+    padding: 8px;
+    padding-top: 10px;
+    font-size: 18px;
+    display: inline-block;
+}
+.d7{
+        display: inline-block;
+    height: 300px;
+    width: 30%;
+    bottom: 118px;
+    margin-left: 60px;
+}
+.d7 .heading2 h2{
+    color: orange;
+    border-radius: 50px;
+    padding: 8px;
+    font-size: 20px;
+    display: inline-block;
+    padding-bottom: 10px;
+    padding-top: 0px;
+}
+.d7 .heading2{
+padding-top: 0px;
+}
+.d7 input{
+        height: 50px;
+    width: 82%;
+    border-radius: 15px;
+    margin-top: 30px;
+    padding-left: 20px;
+}
+.d7 input::placeholder{
+    color: black;
+}
+.d7 button{
+    height: 50px;
+    width: 50px;
+    border-radius: 15px;
+    position: relative;
+    bottom: 152px;
+    left: 23px
+}
+.contact h4{
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+}
+
+/* quiries  */
+/* for tablet screens  */
+
+@media(max-width:1025px){
+    .landing{
+        height: 100vh;
+    }
+    .header{
+        width: 100%;
+    }
+    .section_1{
+        display: flex;
+        flex-direction: column;
+    }
+    .services{
+        height: 100vh;
+    }
+    .service{
+        margin-left: 0;
+    }
+    .services .my_services{
+            margin-left: 3%;
+    }
+    .service1{
+    margin-top: 50px;
+    margin-right: 35px;
+    }
+    .experience{
+        height: 100vh;
+    }
+    .expr{
+            display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 80vh;
+    width: 80%;
+    margin: auto;
+    }
+    .d2{
+     height: 0;
+    width: 100px;
+    display: inline-block;
+    position: relative;
+    transform: rotate(-90deg) scale(0.8);
+    right: 70px;    height: 0;
+    width: 100px;
+    display: inline-block;
+    position: relative;
+    transform: rotate(-90deg) scale(0.8);
+    right: 70px;
+    }
+    .d1 {
+    height: 400px;
+    width: 400px;
+    display: inline-block;
+    position: relative;
+    top: -9px;
+    left: 0px;
+}
+.hire_section{
+    height: 100vh;
+}
+.details{
+    margin: 8% 5%
+}
+.d1 h2 {
+    color: gray;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.review{
+    height: 100vh;
+}
+.reviews{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.review1{
+    width: 70%;
+}
+.acheivements {
+    margin-left: 10%;
+    width: 50%;
+}
+.email{
+    width: 90%;
+}
+.email button{
+    margin-left: 20px;
+}
+    .project_idea {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .project_section{
+        height: 100vh;
+    }
+    .project_details{
+        display: none;
+    }
+    .contact{
+        height: 100vh;
+}
+    .d7 button{
+    height: 50px;
+    width: 50px;
+    border-radius: 15px;
+    position: relative;
+    bottom: 152px;
+    left: 55px;
+}
+.contact_information{
+    height: 280px;
+    margin-top: 100px;
+    transform: scale(0.8);
+    position: relative;
+    right: 10%;
+    width: 115%;
+}
+}
+
+
+/* for mobile screens  */
+
+@media(max-width:600px){
+    .landing{
+        height: 100vh;
+    }
+    .header {
+        width: 100%;
+    }
+    .header ul{
+        margin: 0px 5%;
+        display: inline;
+    }
+    .header ul li{
+        padding: 20px 2px;
+    }
+    .header li a{
+        display: none;
+    }
+    .my_name{
+        width: 100%;
+    }
+    .my_name h1{
+        font-size: 45px;
+    }
+    .my_name h2{
+        font-size: 45px;
+    }
+    .intro{
+            width: 158px;
+        display: inline-block;
+        margin-left: 30px;
+        font-size: 12px;
+        position: relative;
+        top: 52px;
+        z-index: 1;
+        transform: scale(0.9);
+    }
+    .exp{
+         width: 100px;
+        display: inline-block;
+        font-size: 12px;
+        position: relative;
+        top: 52px;
+        left: 0;
+        z-index: 1;
+        float: right;
+        margin-right: 10px;
+    }
+    .profile_picture{
+        bottom: -60px;
+        transform: scale(0.8);
+            width: 340px;
+            right: 10%;
+                /* margin: 0px -27px; */
+    }
+    .profile_picture img{
+        right: -15px;
+    }
+    /* landing page complete  */
+    /* service section start  */
+    .service{
+         margin: 15px 0px 0px 25px;
+        float: none;
+        width: 315px;
+        transform: scale(0.9);
+    }
+    .my_services{
+        width: 60%;
+        position: relative;
+        margin-top: -45px
+    }
+    .project_section .my_services{
+        bottom: 30px;
+        margin-top: 10px;
+    }
+    
+    .project_details{
+        display: none;
+    }
+    .service1{
+        transform: scale(0.6);
+        margin-left: -50px;
+        position: relative;
+        left: 15%;
+        margin-top: 50px;
+    }
+    .s2{
+        bottom: -6px;
+    }
+    .s3{
+bottom: 135px;
+    }
+    .bg2{
+        height: 1000px;
+    }
+    .experience .heading2 {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        display: block;
+        position: static;
+}
+ .experience .heading2 h1{font-size: 37px;}
+  .experience .heading2 h2{font-size: 37px;}
+    .d1{
+    bottom: 0;
+    left: -60px;
+    top: -67px;
+    transform: scale(0.8);
+    }
+    .d1 h2{
+        padding-bottom: 0px;
+    }
+    .d2{
+                margin: -70px 0;
+        position: relative;
+        transform: rotate(270deg) scale(0.8);
+    }
+    .d3{
+       width: 370px;
+        margin: 15px -8px;
+        transform: scale(0.8);
+        right: 50px;
+        position: relative;
+        margin-top: 20%;
+    }
+    .experience{
+        height: 970px;
+        transform: scale(0.9);
+        display: flex;
+        flex-direction: column;
+    }
+    .hire_section{
+        height: 100vh;
+    }
+    .hire_section .heading3 {
+        text-align: center;
+}
+.hire_section .heading3 h1{
+    font-size: 35px;
+}
+.hire_section .heading3 h2{
+    font-size: 35px;
+}
+.profile_picture2 {
+    height: 300px;
+    width: 280px;
+    border-radius: 40px;
+    background-color: orange;
+    margin-left: -3px;
+    margin-top: -188px;
+    transform: scale(0.5);
+}
+.hir{
+    display: inline;
+}
+.details {
+            width: 327px;
+        height: 300px;
+        margin-left: 6px;
+        /* bottom: 209px; */
+        position: relative;
+        /* margin-top: 244px; */
+        transform: scale(0.8);
+    }
+    .review .heading4 {
+    transform: scale(0.8);
+}
+.para {
+    text-align: center;
+    width: 80%;
+    color: gray;
+    padding-top: 20px;
+    font-weight: bold;
+    margin-left: 49px;
+    transform: scale(1);
+    height: 84px;
+    font-size: 13px;
+    margin-top: 40px;
+    position: relative;
+    bottom: 41px;}
+
+    .reviews {
+    display: flex;
+    position: relative;
+    bottom: 105px;
+    right: 40px;
+    flex-direction: column;
+    transform: scale(0.7);
+    height: 70%;
+}
+    .p2{ bottom: 140px;
+        }
+    .p3{bottom: 272px;}
+.review1 {
+    height: 210px;
+    width: 126%;
+    background-color: rgba(255, 255, 255, 0.445);
+    color: white;
+    border-radius: 30px;
+    transform: scale(0.7);
+    margin-top: -40px;
+    max-width: 127%;
+}
+.review2{
+    height: 210px;
+    width: 600px;
+    background-color: rgba(255, 255, 255, 0.445);
+    border-radius: 30px;
+    color: white;
+    transform: scale(0.7);
+    margin-right: -151px;
+    margin-left: -43px;
+    position: relative;
+    bottom: 44px;
+}
+.review3 {
+    height: 210px;
+    width: 600px;
+    background-color: rgba(255, 255, 255, 0.445);
+    border-radius: 30px;
+    color: white;
+    transform: scale(0.7);
+    right: 43px;
+    position: relative;
+    bottom: 87px;
+}
+.bg1{
+    height: 100vh;
+}
+.services2 {
+    width: 100%;
+    height: 81px;
+    background-color: orange;
+    /* margin-top: 300px; */
+    border-radius: 30px;
+    position: relative;
+    right: 20px;
+    transform: scale(0.9);
+}
+
+    .services3 h1 {
+    padding: 16px 2px;
+    display: inline-block;
+    font-size: 9px;
+}
+.services3 .star {
+    font-size: 20px;
+    position: relative;
+    bottom: -13px;
+}
+.services2 {
+    width: 103%;
+    height: 81px;
+    background-color: orange;
+    margin-top: 102px;
+    border-radius: 30px;
+    position: relative;
+    right: 20px;
+    transform: scale(0.9);
+    /* margin-top: 300px; */
+
+}
+.a1 {
+    display: inline-block;
+    margin-left: 60px;
+}
+.acheivements {
+        margin-left: -17px;
+        /* margin-top: 20px; */
+        width: 90%;
+}
+.services3 {
+    height: 38px;
+    width: 100%;
+    background-color: white;
+    border-radius: 30px;
+    transform: rotate(-6deg);
+    position: relative;
+    top: 33px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.email button
+ {
+    border: transparent;
+    height: 70px;
+    width: 140px;
+    background-color: orange;
+    color: white;
+    border-radius: 50px;
+    font-size: 25px;
+    margin-left: 0px;
+    margin-top: 5px;
+    float: right;
+    margin-right: 10px;}
+    .email input {
+            height: 70px;
+        width: 48%;
+        border: 1px solid transparent;
+        color: #000000;
+        font-size: 20px;
+        background: transparent;
+        position: relative;
+        top: 5px;
+        padding-left: 10px;
+}
+.email {
+            transform: scale(0.7);
+        height: 79px;
+        border-radius: 50px;
+        border: 0.1px solid black;
+        width: 130%;
+        margin: auto;
+        margin-top: 50px;
+        right: 63px;
+        position: relative;
+    }
+.heading5
+ {
+        padding-top: 120px;
+        padding-left: 0px;
+        display: inline-block;
+        margin: -40px -147px;
+        text-align: center;
+        transform: scale(0.5);
+        position: relative;
+        right: 1px;
+
+ }
+ .project_section{
+    height: 800px;
+    margin-bottom: 150px;
+ }
+  .project_section .heading2
+ {
+    padding-top: 100px;
+    padding-left: 15px;
+    display: inline-block;
+ }
+ .profile_picture img{
+    position: relative;
+    bottom: 73px;
+    transform: scale(1);
+    right: -15px;
+    z-index: 0;
+}
+ .project_section .botton {
+    display: none;
+}
+ .project_section .details_of_projects{
+    height: 340px;
+    width: 285px;
+    margin-left: -4px;
+    margin-top: -33px;
+    display: inline-block;
+    margin-right: 156px;
+}
+.project_idea{
+            height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+}
+ .project_section .details_of_project2{
+    height: 275px;
+    width: 285px;
+    margin-left: -4px;
+    display: inline-block;
+    margin-right: 150px;
+    position: relative;
+    bottom: 18px;
+}
+ .project_section .details_of_project3
+ {
+    height: 100px;
+    width: 260px;
+    margin-left: -4px;
+    position: relative;
+    display: inline-block;
+    margin-right: 156px;
+    bottom: -25px;
+}
+ .project_section .name_of_service {
+    border: none;
+    height: 62px;
+    width: 310px;
+    display: inline-block;
+    margin-bottom: 197px;
+    border-bottom: solid 2px white;
+}
+ .project_section .arrow {
+    color: white;
+    display: inline-block;
+    border-radius: 22px;
+    height: 75px;
+    width: 70px;
+    position: relative;
+    bottom: 55px;
+    left: 236px;
+    background: orange;
+    font-size: 60px;
+    border: none;
+}
+.d6 {
+    display: inline-block;
+    height: 300px;
+    width: 122px;
+    position: relative;
+    bottom: 38px;
+    transform: scale(0.9);
+    right: 25px;
+}
+.heading4 h1{
+    font-size: 30px;
+}
+.hire{
+    right: -43px;
+}
+.heading4 h2{
+    font-size: 30px;
+}
+.contact{
+    height: 1023px;
+    width: 98%;
+}
+.contact .heading4 {
+    margin: initial;
+    margin-left: 15px;
+    transform: scale(0.8);
+    padding-top: 50px;
+}
+.contact button {
+    border: transparent;
+    height: 50px;
+    width: 160px;
+    background-color: orange;
+    color: white;
+    border-radius: 50px;
+    font-size: 25px;
+    /* margin-left: 116px; */
+    margin-top: 5px;
+    float: right;
+    margin-top: 5px;
+    margin-right: 10px;
+    transform: scale(0.8);
+}
+.project_section .service1{
+            margin-right: 40px;
+}
+.d4 {
+    display: inline-block;
+    height: 164px;
+    width: 115%;
+    position: relative;
+    bottom: 63px;
+    right: -40px;
+}
+.d4 .heading2 {
+    padding-top: 0px;
+    transform: scale(0.9);
+    padding: 0px 25px;
+}
+.contact h4
+ {
+    color: white;
+    padding-top: 40px;
+    text-align: center;
+    position: relative;
+    right: 18px;
+}
+.d5 {
+        display: inline-block;
+        width: 137px;
+        height: 300px;
+        margin-left: -8px;
+        /* margin-bottom: 24px; */
+        transform: scale(0.9);
+}
+.d7 {
+    display: inline-block;
+    height: 300px;
+    width: 350px;
+    position: relative;
+    bottom: 118px;
+    margin-left: 60px;
+    right: 67px;
+}
+.d7 .heading2 h2 {
+    color: orange;
+    border-radius: 50px;
+    padding: 8px;
+    font-size: 20px;
+    display: inline-block;
+    padding-bottom: 10px;
+    padding-top: 41px;
+}
+.d7 input {
+    height: 50px;
+    width: 254px;
+    border-radius: 15px;
+    margin-top: 30px;
+    padding-left: 20px;
+}
+.d7 button {
+    height: 50px;
+    width: 50px;
+    border-radius: 15px;
+    position: relative;
+    bottom: -27px;
+    left: -54px;
+}
+.hr{
+        position: relative;
+        top: -113px;
+}
+    .d7 button {
+        height: 50px;
+        width: 50px;
+        border-radius: 15px;
+        position: relative;
+        bottom: 57px;
+        left: -15px;
+  }
+ .copyright {
+        position: relative;
+        top: -111px;
+        transform: scale(0.9);
+        left: 5px;
+    }
+    .contact_information{
+        display: inline-block;
+        width: 100%;
+    }
+    }
+
+/* width 500px  */
+@media(max-width:500px){
+    .s2{
+        bottom: 142px;
+    }
+    .s3{
+        bottom: 280px;
+    }
+    .container{
+        width: 100%;
+    }
+}
+</style>
+
+
+</head>
+<body>
+    <div class="container">
+    <!-- landing page  -->
+    <section >
+<div class="landing" id="landing">
+    <!-- header  -->
+     <navbar>
+        <!-- <div class="container"> -->
+        <div class="header">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#experience">About</a></li>
+                <li><a href="#service_section">Services</a></li>
+                <li id="headings"><h2>M</h2><H1>KZ</H1></li>
+                <li><a>Resume</a></li>
+                <li><a href="#project_section">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        
+     </navbar>
+     <section class="section_1">
+        <div class="Hello"><h2>Hello!</h2></div>
+        <div class="my_name">
+            <h1>I'm</h1><h2>  Moiz Kz</h2>
+            <br>
+            <h1>A web developer</h1>
+        </div>
+        <div>        <div class="intro">
+            <p>Moiz kz, A juniour developer | Crafting designs into real, interactive websites.
+                "Code, Design, Create, Repeat"
+            </p>
+        </div>
+        <div class="exp">
+            <i class="fa-solid fa-star star"></i>
+            <i class="fa-solid fa-star star"></i>
+            <i class="fa-solid fa-star star"></i>
+            <i class="fa-solid fa-star star"></i>
+            <i class="fa-solid fa-star star"></i>
+            <h1>01</h1>
+            <p> Year of experience</p>
+        </div>
+        </div>
+
+        <!-- profile_picture -->
+         <div class="profile_picture">
+            <img src="pfp2.PNG" alt="">
+            <div class="hire">
+                <a href="https://moizkz.github.io/Project-Porfolio/" target="main">Portfolio</a><a href="https://www.linkedin.com/in/moiz-kz-b5531131a/" target="main">Hire me</a>
+            </div>
+         </div>
+     </section>
+     <!-- navbar complete -->
+</div>
+<!-- </div> -->
+    </section>
+    <!-- sevices -->
+     <section 2 class="a">
+        <div class="services bg2" id="service_section">
+            <!-- <div class="container bg2"> -->
+                <div>
+                <div class="heading2">
+                    <h1>My</h1><h2> Services</h2>
+                </div>
+                <div class="service">
+                    I create modern, responsive and user-friendly using HTML, CSS, JavaScript and PHP. My focus is on clean design,
+                    smooth perfomance, and turning ideas into real digital experiences.
+                </div>
+                </div>
+                <div class="my_services">
+                    <div class="service1 s1">
+                        <div class="name_of_service"><h2>UI UX Design</h2></div>
+                        <button class="arrow"><p>></p></button>
+                    </div>
+                    <div class="service1 s2">
+                        <div class="name_of_service"><h2>Web Design</h2></div>
+                        <button class="arrow"><p>></p></button>
+                    </div>
+                    <div class="service1 s3">
+                        <div class="name_of_service"><h2>Landing Page</h2></div>
+                        <button class="arrow"><p>></p></button>
+                    </div>
+                </div>
+             </div>
+    <!-- </div> -->
+     </section>
+     <!-- section 2 services complete  -->
+      <!-- section 3 experience start -->
+      <section 3>
+<div class="experience" id="experience">
+    <!-- <div class="container"> -->
+    <div class="heading2">
+        <h1>My</h1><h2> Work experience</h2>
+    </div>
+    <div class="expr">
+    <div class="d1">
+        <h1>AMB Technical Institute</h1>
+        <h2>july-2022</h2>
+        <h1>Statistics computer lab</h1>
+        <h2>november-2023</h2>
+        <h1>Sindh Agriculture University</h1>
+        <h2>ongoing-2025</h2>
+    </div>
+    <div class="d2">
+        <div class="dot"><div class="circle"></div>
+    <div class="line"></div><div class="dot2"><div class="circle2"></div></div><div class="line">
+    </div><div class="dot2"><div class="circle"></div></div></div>
+    </div>
+    <div class="d3">
+        <h1>Frontend Developer</h1>
+        <h2>I build responsive and user-friendly websites using HTML, CSS, and JavaScript. My focus is on writing
+            clean code and creating clean code and creating smooth, modern web experiences. I enjoy turning ideas into fully function digital products.
+        </h2>
+        <h1>Creative Coder</h1>
+        <h2>I love combining design and logic to make websites both beautiful and powerful.
+            Every project i create reflect my attention to detail and passion for improvement.
+            I believe isn't about complexity - it's about clarity.
+        </h2>
+        <h1>Fast learner</h1>
+        <h2>I quickly adapt to new tools, technologies and challenges. learning something new every day keeps me motivated 
+            and growing. I believe consistency and curiosity are the keys to real progress.
+        </h2>
+    </div>
+    </div>
+</div>
+
+<!-- </div> -->
+      </section>
+      <!-- Section 3 exprerience complete  -->
+       <!-- section 4 start  hire section  -->
+        <section>
+            <div class="hire_section">
+                <!-- <div class="container"> -->
+           <div class="heading3">
+                <h1>Why</h1><h2> Hire me</h2><h1>?</h1>
+            </div>
+            <div class="hir">
+                <div class="profile_picture2">
+                <img src="pfp.png" alt="">
+            </div>
+            <div class="details">
+                <h4>I'm a passionate developer who loves creating clean, responsive and user-friendly websites. With strong
+                    skills in HTML, CSS, JavaScript and PHP, i focus on writing efficient code and delivering smooth user 
+                    experiences. I'm a fast learner, adaptable to new tools and challenges, and always eager to improve.
+                    If you're looking for something reliable, creative, and dedicated to building high-quality projects - i'm right choice.
+                </h4>
+            <br>
+            <br>
+            <div class="p1">
+            <h1>150+</h1><h4>Project Completed</h4>
+            </div>
+            <div class="p2">
+            <h1>150+</h1><h4>Project Completed</h4>
+            </div>
+            <button><a href="https://www.linkedin.com/in/moiz-kz-b5531131a/" target="main">Hire me</a></button>
+            </div>
+            </div>
+            </div>
+
+            <!-- </div> -->
+        </section>
+        <!-- section 4 hire section complete  -->
+         <!-- section 5 review section start  -->
+          <section class="a">
+            <div class="review bg1">
+                <!-- <div class="container bg2" >    -->
+                                 <div class="heading4">
+                    <H1>Testinomials That Speak <br> to</H1><h2> My Results</h2>
+                </div>
+                <div class="para">
+               Here's what some of my clients say about about my work. Each project i complete reflects my commintment to clean design
+            , smooth perfomance, and client satisfaction.</div>
+                <div class="reviews">
+                <!-- review1  -->
+                <div class="review1">
+                    <div class="pfp"></div>
+                    <div class="r_name"><h2>Ahmed Khan</h2><h4>Small business owner</h4>
+                    </div>
+                    <div class="stars">
+                                <i class="fa-solid fa-star star"></i>
+            <i class="fa-solid fa-star star"></i>
+            <i class="fa-solid fa-star star"></i>
+            <i class="fa-solid fa-star star"></i>
+            <i class="fa-solid fa-star star"></i>
+            <h2>5.0</h2>
+                </div>
+                <div class="para2">Moiz did an amazing job building my business website. He understood my ideas quickly and turned
+                    them into a clean, modern sites that works perfectly on all devices.
+                </div>
+                </div>
+                <!-- review2  -->
+                 <div class="review1">
+                    <div class="pfp"></div>
+                    <div class="r_name"><h2>Sarah Malik</h2><h4>Content Creator</h4>
+                    </div>
+                    <div class="stars">
+                                <i class="fa-solid fa-star star"></i>
+            <i class="fa-solid fa-star star"></i>
+            <i class="fa-solid fa-star star"></i>
+            <i class="fa-solid fa-star star"></i>
+            <i class="fa-solid fa-star star"></i>
+            <h2>5.0</h2>
+                </div>
+                <div class="para2">Working with Moiz was a great experience. He created a responsive and stylish portfolio 
+                    for me. and even helped me understand how to manage it easily.
+                </div>
+               </div>
+                <!-- review 3 -->
+                 <div class="review1">
+                    <div class="pfp"></div>
+                    <div class="r_name"><h2>Rizwan Ali </h2><h4>Startup Founder</h4>
+                    </div>
+                    <div class="stars">
+                                <i class="fa-solid fa-star star"></i>
+            <i class="fa-solid fa-star star"></i>
+            <i class="fa-solid fa-star star"></i>
+            <i class="fa-solid fa-star star"></i>
+            <i class="fa-solid fa-star star"></i>
+            <h2>5.0</h2>
+                </div>
+                <div class="para2">I was impressed vy Moiz's creativity and technical skills. He developed our landing page exactly how we imagined it
+                    smooth, fast and user-friendly. Defenitely a dedicated developer with great attention to detail.
+                </div>
+            </div>
+            <!-- </div> -->
+            </div>
+          </section>
+          <!-- section 4 review session complete  -->
+           <!-- section 5 start  -->
+            <section>
+                <div class="project_idea">
+                    <!-- <div class="container"> -->
+                <div class="heading5"><h1>Have An Awesome Project <br> Idea?</h1><h2>Let's Discuss</h2></div>
+                <div>
+                <div class="email">
+                    <!-- <i class="fa-solid fa-star star"></i> -->
+                    <i class="fa-solid fa-envelope star"></i>
+                    <input type="Text" placeholder="Enter Email Address">
+                    <button>Send</button>
+                </div>
+                <div class="acheivements">
+                    <div class="a1">
+                        <i class="fa-solid fa-star star"></i>
+                        <h3>4.9/5 Average Ratings</h3>
+                    </div>
+                    <div class="a1">
+                        <i class="fa-solid fa-award"></i>
+                        <h3>25+ Winning Awards</h3>
+                    </div>
+                    <div class="a1">
+                        <i class="fa-solid fa-certificate"></i>
+                        <h3>Certified Web Developer</h3>
+                    </div>
+                </div>
+                </div>
+                <div class="services2">
+                    <div class="services3">
+                        <h1>UX Design</h1>
+                        <i class="fa-solid fa-star star"></i>
+                        <h1>Web Developer</h1>
+                        <i class="fa-solid fa-star star"></i>
+                        <h1>Figma to HTML</h1>
+                        <i class="fa-solid fa-star star"></i>
+                        <h1>User Responsive</h1>
+                                        </div>
+                </div>
+            </div>
+            <!-- </div> -->
+            </section>
+            <!-- Section 5 complete  -->
+             <!-- section 6 project section start  -->
+              <section>
+                <div class="project_section" id="project_section">
+                    <!-- <div class="container"> -->
+                    <div class="heading2">
+                        <h1> My</h1><H2> Projects</H2>
+                    </div>
+                    <button class="botton">See all</button>
+                    <div class="my_services ">
+                    <div style="border-color: black;" class="service1 services1 p1" >
+                        <div style="border-color: black;" class="name_of_service"><h2 style="color: black;">Portfolio</h2></div>
+                        <button style="color: black;" class="arrow"><p><a href="https://moizkz.github.io/Project-Porfolio/" target="main">></a></p></button>
+                    </div>
+                    <div style="border-color: black;" class="service1 service2 p2">
+                        <div  style="border-color: black;" class="name_of_service"><h2 style="color: black;">Furnish Website</h2></div>
+                        <button style="color: black;" class="arrow"><p><a href="https://moizkz.github.io/Web-furni/" target="main">></a></p></button>
+                    </div>
+                    <div style="border-color: black;" class="service1 service3 p3">
+                        <div style="border-color: black;" class="name_of_service"><h2 style="color: black;">Calculator</h2></div>
+                        <button style="color: black;" class="arrow"><p><a href="https://moizkz.github.io/Calculator-app/" target="main">></a></p></button>
+                    </div>
+                </div>
+                <div class="project_details">
+                <div class="details_of_projects">
+                    <h4>Create a personal portfolio website using HTML CSS Javascript and PHP a full stack 
+                    website with fronted backend also add database in contact section.
+                    </h4>
+                    </div>
+                    <div class="details_of_project2">
+                    <h4>A furniture website i convert from figma design to an HTML and CSS website
+                    </h4>
+                    </div>
+                    <div class="details_of_project3">
+                    <h4>Create a Calculator using HTML CSS and Javascript.
+                    </h4>
+                </div>
+                </div>
+                </div>
+                <!-- </div> -->
+              </section>
+              <!-- section 6 project section complete  -->
+               <!-- section 7 contact section start  -->
+                <section class="bg3">
+                    <div class="contact " id="contact">
+                        <!-- <div class="container bg3"> -->
+                        <div class="heading4">
+                            <h1>Let's Connect There</h1>
+                        </div>
+                        <button><a href="https://www.linkedin.com/in/moiz-kz-b5531131a/" target="main">Hire me</a> </button>
+                        <br> 
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                         <hr>
+                         <div class="contact_information">
+                            <div class="d4">
+                                <div class="heading2"><h2>MOIZ</h2><H1> KZ</H1>
+                                <h4>I'm always here to new projects, creative ideas, or collaboration opportunities. If you're looking
+                                    for someone who can build clean, modern and functional websites - let's connect and make it happen!
+                                </h4>
+                                </div>
+                            </div>
+                            <div class="d5">
+                                <div class="heading2"><h2>Navigation</h2>
+                                    <br><h1><a href="#landing">Home</a></h1>
+                                    <br><h1><a href="#experience">About</a></h1>
+                                    <br><h1><a href="#service_section">Services</a></h1>
+                                    <br><h1><a href="MOIZ_KZ.CB.pdf" target="main">Resume</a></h1>
+                                    <br><h1><a href="#project_section">Projects</a></h1>
+                                </div>
+                            </div>
+                            <div class="d6">
+                                <div class="heading2"><h2>Contact</h2>
+                                    <br><h1><a>+923223900297</a></h1>
+                                    <br><h1><a href="kzmoiz494@gmail.com">Kzmoiz494@gmail.com</a></h1>
+                                    <br><h1><a href="https://moizkz.github.io/Project-Porfolio/" target="main">Portfolio</a></h1>
+                                    <br><h1><a>Hyderabad Sindh</a></h1>
+                                </div>
+                            </div>
+                            <div class="d7">
+                                 <div class="heading2"><h2>Get The Latest Information</h2>
+                                    <br>
+                                    <input type="text" placeholder="Email Address">
+                                    <button class="botton1"><i class="fa-solid fa-envelope star"></i></button>
+                            </div>
+                            </div>
+                         </div>
+                          <hr class="hr">
+                          <h4 class="copyright">@ 2025 Coded by MOIZ KZ all rights reserved | Privacy Policy | Terms and Conditions</h4>
+                    </div>
+                    <!-- </div> -->
+                </section>
+            </div>
+</body>
+</html>
